@@ -1,0 +1,273 @@
+/*Diseño para la demostracion de nuestras tablas */
+
+table tr td{
+    background-color: #F9F5E6;
+    width: 90px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+ul li a{
+    color: black;
+    font-size:25px;
+    text-decoration: none;
+
+}
+
+.submenu{
+    position: relative;
+    right: -460px;
+    top: -890px;
+}
+
+.submenu li a:hover{
+    color:white;
+}
+
+/*El nombre de la clase hace referencia a "Agregar"; La usaremos como fondo para el formulario*/
+.a{
+    background-color:#EACE71;
+    border-radius: 15px;
+    width: 730px;
+    height:430px;
+    position:relative;
+    right: -300px;
+    top: -430px;
+}
+
+.insertUno p{
+    font-size:40px;
+    color: black;
+    padding: 0px;
+    margin:0px;
+    position:relative;
+    right:-450px;
+    top:-820px;
+}
+
+.insertUno input[type="text"]{
+    position:relative;
+    font-size: 25px;
+    right:-670px;
+    top:-865px;
+    width:250px;
+    height:30px;
+}
+
+.insertUno input[type="submit"]{
+    font-size: 18px;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 10px;
+    position:relative;
+    right:-380px;
+    top:-760px;
+    width: 120px;
+    height:35px;
+}
+
+.u table{
+    position:relative;
+    right: -580px;
+    top:-650px;
+    background-color: white;
+}
+
+.u table tr td{
+    width: 0px;
+}
+
+.u input[type="submit"]{
+    font-size: 18px;
+    width: 120px;
+    height:35px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative; 
+    right: -610px;
+    top:-750px;
+}
+
+.u input[type="submit"]:hover{
+    background-color: peru;
+    color: white;
+}
+
+.h {
+    position: relative;
+    right:-460px;
+    top: -780px;
+}
+
+#h{
+    color:black;
+    position: relative;
+    right:-410px;
+    top: -700px;
+}
+
+.editUno p{
+    font-size: 35px;
+    padding: 0px;
+    margin:0px;
+    position: relative;
+    right: -450px;
+    top: -860px;
+}
+
+.editUno select{
+    width:220px;
+    height:30px;
+    position: relative;
+    right:-720px;
+    top:-720px;
+}
+
+.editUno input[type="text"]{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    width:220px;
+    height:30px;
+    position:relative;
+    right:-655px;
+    top: -900px;
+}
+
+.editUno input[type="submit"]{
+    font-size: 18px;
+    width: 120px;
+    height:35px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative; 
+    right: -400px;
+    top:-845px;
+}
+
+.editUno input[type="submit"]:hover{
+    background-color: peru;
+    color: white;
+}
+
+.editUno input[type="number"]{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    width:220px;
+    height:30px;
+    position:relative;
+    right:-655px;
+    top: -900px;
+}
+
+.eliminar p{
+    font-size: 40px;
+    color:black;
+    position: relative;
+    top:-690px;
+    right: -450px
+}
+
+.eliminar select {
+    position: relative;
+    top: -690px;
+    right: -720px;
+    width:220px;
+    height:30px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.eliminar input[type="submit"]{
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position:relative;
+    right:-620px;
+    top:-640px;
+    width: 120px;
+    height:35px;
+}
+
+.eliminar input[type="submit"]:hover{
+    background-color: peru;
+    color: white;
+}
+
+#p{
+    font-size: 35px;
+    padding: 0px;
+    margin:0px;
+    position: relative;
+    right: -450px;
+    top: -850px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#btnEliminar input[type="submit"]{
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 120px;
+    height: 35px;
+    position: relative;
+    top:-680px;
+    right: -615px;
+}
+
+#btnEliminar input[type="submit"]:hover{
+    background-color: peru;
+    color: white;
+}
+
+/*Diseño acoplado con bootstrap de la tabla y su buscador interno*/
+.row{
+    margin-top:40px;
+    padding: 0 10px;
+}
+.clickable{
+    cursor: pointer;   
+}
+
+.panel-heading div {
+    margin-top: -18px;
+    font-size: 15px;
+}
+.panel-heading div span{
+    margin-left:5px;
+}
+.panel-body{
+    display: none;
+}
+/*Darle posicion a nuestra tabla     */
+.posicionTabla{
+    position: relative;
+    right: -390px;
+    top:-880px;
+    width: 1079px;
+}
+
+.posicion{
+    width: 500px;
+    position: relative;
+    top:-130px;
+    right: 150px;
+}
+
+/*Agregar un scroll a la tabla*/
+.productos{
+    width: 530px;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

@@ -1,0 +1,308 @@
+/*Diseño para la demostracion de nuestras tablas */
+table tr td{
+    background-color: #F9F5E6;
+    width: 90px;
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+ul li a{
+    color: black;
+    font-size:25px;
+    text-decoration: none;
+
+}
+
+.submenu{
+    position: relative;
+    right: -460px;
+    top: -860px;
+}
+
+.submenu li a:hover{
+    color:white;
+}
+
+/*El nombre de la clase hace referencia a "Agregar"; La usaremos como fondo para el formulario*/
+.a{ 
+    background-color:#EACE71;
+    border-radius: 15px;
+    width: 730px;
+    height:430px;
+    position:relative;
+    right: -300px;
+    top: -430px;
+}
+/*A partir de aqui se crearan varias clases para acomodar las partes del agregar Venta ya que si lo hacemos general se hace MUY CONFUSO
+ Vamos a enumerar cada clase dependiendo de la pagina en la que se valla a usar, indicando el nombre proceso y asi*/
+
+ .parteUno p{
+  font-size:40px;
+  color:black;
+  position:relative;
+  right:-450px;
+  top:-750px;
+}
+
+.parteUno input[type="submit"]{
+    font-size: 18px;
+    position:relative;
+    right:-350px;
+    top:-700px;
+    width: 120px;
+    height:35px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.parteUno input[type="submit"]:hover{
+    background-color: peru;
+    color:white;
+}
+
+
+.parteUno select{
+    position: relative;
+    right:-710px;
+    top:-770px;
+    width:280px;
+    height:150px;
+}
+
+.parteUno input[type="text"]{
+    position:relative;
+    right:-620px;
+    top:-800px;
+    width:280px;
+    height:28px;
+}
+
+.parteDos p{
+    position:relative;
+    color:black;
+    right: -430px;
+    top: -840px;
+    font-size:40px;
+    padding-top: 0px ;
+    margin: 0px;
+} 
+
+.parteDos input[type="text"]{
+    width: 220px;
+    height:30px;
+    position: relative;
+    right: -700px;
+    top: -883px;
+    color: black;
+}
+
+.parteDos input[type="submit"]{
+    font-size: 18px;
+    width: 120px;
+    height:35px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    position:relative;
+    right: -400px;
+    top: -810px;
+}
+
+.parteDos input[type="submit"]:hover{
+    background-color: peru;
+    color: white;
+}
+
+.u h2{
+    position: relative;
+    right:-150px;
+    top: -760px;
+    
+}
+
+.u table{
+    position:relative;
+    right: -510px;
+    top:-650px;
+    width: 450px;
+}
+
+.u input [type="submit"]{
+    position: relative; 
+}
+
+.editUno p{
+   font-size: 40px;
+   color:black;
+   position:relative;
+   right: -480px;
+   top:-830px;
+   padding-top: 25px;
+   margin: 0px;
+}
+
+.editUno select{
+    position: relative;
+    right: -670px;
+    top: -735px;
+    width:280px;
+    height:30px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.editUno input[type="text"]{
+    font-size: 25px;
+    position:relative;
+    right: -650px;
+    top: -873px;
+    width:280px;
+    height:30px;
+}
+
+.editUno input[type="submit"]{
+    font-size: 18px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    position:relative;
+    right:-360px;
+    top:-790px;
+    width: 120px;
+    height:35px;
+}
+
+.editUno input[type="submit"]:hover{
+    background-color: peru;
+    color:white;
+}
+
+.eliminar p{
+    font-size: 40px;
+    color:black;
+    position: relative;
+    top:-720px;
+    right: -500px
+}
+
+.eliminar select {
+    position: relative;
+    top: -690px;
+    right: -700px;
+    width:200px;
+    height:30px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.eliminar input[type="submit"]{
+    font-size: 18px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    position:relative;
+    right:-630px;
+    top:-680px;
+    width: 120px;
+    height:35px;
+}
+
+.eliminar input[type="submit"]:hover{
+    background-color: peru;
+    color:white;
+}
+
+.eliminarParteDos h2{
+    color:black;
+    position: relative;
+    top:-720px;
+    right: -410px
+}
+
+
+.eliminarParteDos input[type="submit"]{
+    font-size: 18px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    position:relative;
+    right:-600px;
+    top:-660px;
+    width: 120px;
+    height:35px;
+}
+
+.eliminarParteDos input[type="submit"]:hover{
+    background-color: peru;
+    color: white;
+}
+
+.u input[type="submit"]{
+    font-size: 18px;
+    width: 120px;
+    height:35px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative; 
+    right: -700px;
+    top:-620px;
+}
+
+.u input[type="submit"]:hover{
+    background-color: peru;
+    color: white;
+}
+
+#btnEdit{
+    position:relative;
+    top:-80px;
+    right: 100px;
+}
+
+/*Diseño acoplado con bootstrap de la tabla y su buscador interno*/
+.row{
+    margin-top:40px;
+    padding: 0 10px;
+}
+.clickable{
+    cursor: pointer;   
+}
+
+.panel-heading div {
+    margin-top: -18px;
+    font-size: 15px;
+}
+.panel-heading div span{
+    margin-left:5px;
+}
+.panel-body{
+    display: none;
+}
+/*Darle posicion a nuestra tabla     */
+.posicionTabla{
+    position: relative;
+    right: -390px;
+    top:-870px;
+    width: 1079px;
+}
+/*Agregar un scroll a la tabla*/
+.ventas{
+    width: 530px;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*Posicionar la tabla de los formularios*/
+.posicion{
+    position: relative;
+    top:-100px;
+    right: 80px;
+}

@@ -1,0 +1,300 @@
+/*Diseño para la demostracion de nuestras tablas */
+table tr td{
+    background-color: #F9F5E6;
+    width: 90px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+ul li a{
+    color: black;
+    font-size:25px;
+    text-decoration: none;
+
+}
+
+.submenu{
+    position: relative;
+    right: -460px;
+    top: -890px;
+}
+
+.submenu li a:hover{
+    color:white;
+}
+
+/*El nombre de la clase hace referencia a "Agregar"; La usaremos como fondo para nuestros formularios*/
+.a{ 
+    background-color:#EACE71;
+    border-radius: 15px;
+    width: 730px;
+    height:430px;
+    position:relative;
+    right: -300px;
+    top: -430px;
+}
+
+.insertUno p{
+    font-size: 40px;
+    color:black;
+    padding: 0px;
+    margin:0px;
+    position: relative;
+    right: -450px;
+    top: -830px;
+}
+
+.insertUno input[type="text"]{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    width:250px;
+    height:30px;
+    position:relative;
+    right:-640px;
+    top: -870px;
+}
+
+.insertUno input[type="submit"]{
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 120px;
+    height:35px;
+    position:relative;
+    right: -360px;
+    top:-810px;
+}
+
+.insertUno input[type="submit"]:hover{
+    background-color: peru;
+    color:white;
+}
+
+.u h2{
+    color: black;
+    position: relative;
+    right:-150px;
+    top: -800px;
+    
+}
+
+.u table{
+    position:relative;
+    right: -400px;
+    top:-680px;
+    width: 500px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.u table tr td{
+    border: 1px solid black;
+    width: 0px;
+}
+
+.u input[type="submit"]{
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 120px;
+    height:35px;
+    position: relative; 
+    right: -600px;
+    top:-750px;
+}
+
+.u input[type="submit"]:hover{
+    background-color: peru;
+    color: white;
+}
+
+.editUno p{
+    font-size: 28px;
+    color:black;
+    padding: 0px;
+    margin:0px;
+    position: relative;
+    right: -480px;
+    top: -840px;
+}
+
+.editUno select{
+    width:260px;
+    height:30px;
+    position: relative;
+    right:-720px;
+    top:-720px;
+}
+
+.editUno input[type="text"]{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    width:250px;
+    height:30px;
+    position:relative;
+    right:-660px;
+    top: -875px;
+}
+
+.editUno input[type="submit"]{
+    font-size: 18px;
+    width: 120px;
+    height:35px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative; 
+    right: -410px;
+    top:-835px;
+}
+
+.editUno input[type="submit"]:hover{
+    background-color: peru;
+    color: white;
+}
+
+.h {
+    color:black;
+    position: relative;
+    right:-500px;
+    top: -800px;
+}
+
+#h{
+    color:black;
+    position: relative;
+    right: -400px;
+    top: -720px;
+}
+
+.eliminar p{
+    font-size: 40px;
+    color:black;
+    position: relative;
+    top:-720px;
+    right: -440px
+}
+
+.eliminar select {
+    position: relative;
+    top: -690px;
+    right: -720px;
+    width:240px;
+    height:30px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.eliminar input[type="submit"]{
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position:relative;
+    right:-620px;
+    top:-660px;
+    width: 120px;
+    height:35px;
+}
+
+.eliminar input[type="submit"]:hover{
+    background-color: peru;
+    color:white;
+}
+
+.tablaEdit table{
+    width: 500px;
+    position: relative;
+    top:-700px;
+    right: -450px;
+}
+
+#btnEdit input[type="submit"]{
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    position: relative;
+    top:-750px;
+    right: -600px;
+}
+
+#btnEdit input[type="submit"]:hover{
+    background-color: peru;
+    color:white;
+}
+
+#btnEliminar input[type="submit"]{
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 120px;
+    height: 35px;
+    position: relative;
+    right: -600px ;
+    top:-700px;
+}
+
+#btnEliminar input[type="submit"]:hover{
+    background-color: peru;
+    color: white;
+}
+
+
+/*Diseño acoplado con bootstrap de la tabla y su buscador interno*/
+.row{
+    margin-top:40px;
+    padding: 0 10px;
+}
+.clickable{
+    cursor: pointer;   
+}
+
+.panel-heading div {
+ 
+    margin-top: -18px;
+    font-size: 15px;
+}
+.panel-heading div span{
+    margin-left:5px;
+}
+.panel-body{
+    display: none;
+}
+/*Darle posicion a nuestra tabla     */
+.posicionTabla{
+    position: relative;
+    right: -340px;
+    top:-885px;
+    width: 1090px;
+}
+
+/*Posicionar la tabla de los formularios*/
+.posicion{
+    position: relative;
+    top:-100px;
+    right: 80px;
+}
+
+/*Agregar un scroll a la tabla*/
+.provedores{
+    width: 610px;
+    height: 200px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.provedores table td{
+    border:none;
+}
